@@ -1,1 +1,70 @@
-<mxfile host="app.diagrams.net" modified="2021-12-01T00:47:07.989Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.55 Safari/537.36" version="15.5.9" etag="AtJEC49GTtXZk3ojGbaz" type="github"><diagram id="3eAsLjzqlqDwdx8x5miV">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-12-01T08:19:02.824Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.55 Safari/537.36" etag="_a8hBatYDB9kRg94jRMA" version="15.5.9" type="github">
+  <diagram id="3eAsLjzqlqDwdx8x5miV" name="Page-1">
+    <mxGraphModel dx="946" dy="614" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="YPpCOBNlumDW3QSAHT6t-1" value="图书" style="ellipse;whiteSpace=wrap;html=1;labelBackgroundColor=none;labelBorderColor=none;" vertex="1" parent="1">
+          <mxGeometry x="330" y="230" width="80" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="YPpCOBNlumDW3QSAHT6t-2" value="出版社" style="ellipse;whiteSpace=wrap;html=1;labelBackgroundColor=none;labelBorderColor=none;" vertex="1" parent="1">
+          <mxGeometry x="570" y="310" width="80" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="YPpCOBNlumDW3QSAHT6t-3" value="类别" style="ellipse;whiteSpace=wrap;html=1;labelBackgroundColor=none;labelBorderColor=none;" vertex="1" parent="1">
+          <mxGeometry x="550" y="130" width="80" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="YPpCOBNlumDW3QSAHT6t-4" value="用户" style="ellipse;whiteSpace=wrap;html=1;labelBackgroundColor=none;labelBorderColor=none;" vertex="1" parent="1">
+          <mxGeometry x="400" y="440" width="80" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="YPpCOBNlumDW3QSAHT6t-5" value="仓库" style="ellipse;whiteSpace=wrap;html=1;labelBackgroundColor=none;labelBorderColor=none;" vertex="1" parent="1">
+          <mxGeometry x="190" y="370" width="80" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="YPpCOBNlumDW3QSAHT6t-6" value="图书-类别" style="rhombus;whiteSpace=wrap;html=1;labelBackgroundColor=none;labelBorderColor=none;" vertex="1" parent="1">
+          <mxGeometry x="440" y="180" width="80" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="YPpCOBNlumDW3QSAHT6t-7" value="" style="endArrow=none;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="YPpCOBNlumDW3QSAHT6t-1" target="YPpCOBNlumDW3QSAHT6t-6">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="460" y="330" as="sourcePoint" />
+            <mxPoint x="510" y="280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YPpCOBNlumDW3QSAHT6t-8" value="" style="endArrow=none;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="YPpCOBNlumDW3QSAHT6t-6" target="YPpCOBNlumDW3QSAHT6t-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="460" y="330" as="sourcePoint" />
+            <mxPoint x="580" y="200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YPpCOBNlumDW3QSAHT6t-9" value="n" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="410" y="220" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="YPpCOBNlumDW3QSAHT6t-10" value="m" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="525" y="160" width="30" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="YPpCOBNlumDW3QSAHT6t-11" value="" style="endArrow=none;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="YPpCOBNlumDW3QSAHT6t-5" target="YPpCOBNlumDW3QSAHT6t-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="460" y="330" as="sourcePoint" />
+            <mxPoint x="510" y="280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YPpCOBNlumDW3QSAHT6t-12" value="n" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="210" y="340" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="YPpCOBNlumDW3QSAHT6t-13" value="1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="290" y="240" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="YPpCOBNlumDW3QSAHT6t-14" value="" style="endArrow=none;html=1;rounded=0;exitX=1;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="YPpCOBNlumDW3QSAHT6t-1" target="YPpCOBNlumDW3QSAHT6t-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="480" y="330" as="sourcePoint" />
+            <mxPoint x="530" y="280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YPpCOBNlumDW3QSAHT6t-15" value="n" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="420" y="260" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="YPpCOBNlumDW3QSAHT6t-16" value="1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="550" y="310" width="20" height="20" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
